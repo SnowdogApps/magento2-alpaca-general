@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2021-04-26
+### Added
+- 67426: Added require for https://github.com/Smile-SA/magento2-module-elasticsuite-quick-order module
+
 ## [1.1.0] - 2021-04-23
 ### Added
 - DEV-78034: Module `Smile_ElasticsuiteSwatches` issue `#1931` fix.
