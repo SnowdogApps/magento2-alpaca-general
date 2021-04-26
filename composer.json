@@ -3,7 +3,8 @@
     "description": "A Magento 2 module for Alpaca project general fixes",
     "require": {
         "magento/framework": ">=102.0.0",
-        "smile/elasticsuite": ">=2.8.5 <=2.10.3"
+        "smile/elasticsuite": ">=2.8.5 <=2.10.3",
+        "smile/module-elasticsuite-quick-order": ">=2.8.0 <=2.10.1"
     },
     "type": "magento2-module",
     "autoload": {
