@@ -12,6 +12,7 @@
         <sequence>
             <module name="Magento_CatalogSearch"/>
             <module name="Smile_ElasticsuiteSwatches"/>
+            <module name="Magento_Sales"/>
         </sequence>
     </module>
 </config>
