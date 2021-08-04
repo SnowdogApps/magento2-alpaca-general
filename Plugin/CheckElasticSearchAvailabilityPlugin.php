@@ -17,9 +17,15 @@ use Magento\Framework\Exception\LocalizedException;
 
 class CheckElasticSearchAvailabilityPlugin
 {
-    private IndexOperation $indexOperation;
+    /**
+     * @var IndexOperation
+     */
+    private $indexOperation;
 
-    private LoggerInterface $logger;
+    /**
+     * @var LoggerInterface
+     */
+    private $logger;
 
     public function __construct(
         IndexOperation $indexOperation,
@@ -32,10 +38,11 @@ class CheckElasticSearchAvailabilityPlugin
     /**
      * @throws LocalizedException
      */
-    public function beforePlace(
+    public function aroundPlace(
         OrderService $subject,
+        callable $proceed,
         OrderInterface $order
-    ): void {
+    ): OrderInterface {
         if (!$this->indexOperation->isAvailable()) {
             $this->logger->critical(
                 'Saving order ' . $order->getIncrementId() . ' failed. ES is not available.'
@@ -44,5 +51,7 @@ class CheckElasticSearchAvailabilityPlugin
                 __('Saving order failed. ES is not available.')
             );
         }
+
+        return $proceed($order);
     }
 }

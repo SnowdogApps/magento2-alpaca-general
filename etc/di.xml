@@ -13,4 +13,3 @@
                 type="Snowdog\AlpacaGeneral\Plugin\CheckElasticSearchAvailabilityPlugin"/>
     </type>
 </config>
-
