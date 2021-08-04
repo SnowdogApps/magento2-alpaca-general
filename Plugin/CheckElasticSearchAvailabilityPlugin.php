@@ -38,11 +38,10 @@ class CheckElasticSearchAvailabilityPlugin
     /**
      * @throws LocalizedException
      */
-    public function aroundPlace(
+    public function beforePlace(
         OrderService $subject,
-        callable $proceed,
         OrderInterface $order
-    ): OrderInterface {
+    ): array {
         if (!$this->indexOperation->isAvailable()) {
             $this->logger->critical(
                 'Saving order ' . $order->getIncrementId() . ' failed. ES is not available.'
@@ -52,6 +51,6 @@ class CheckElasticSearchAvailabilityPlugin
             );
         }
 
-        return $proceed($order);
+        return [$order];
     }
 }
