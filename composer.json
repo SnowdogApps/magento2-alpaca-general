@@ -4,7 +4,8 @@
     "require": {
         "magento/framework": ">=102.0.0",
         "smile/elasticsuite": ">=2.8.5 <=2.10.3",
-        "smile/module-elasticsuite-quick-order": ">=2.8.0 <=2.10.1"
+        "smile/module-elasticsuite-quick-order": ">=2.8.0 <=2.10.1",
+        "magento/module-sales": ">=103.0.2"
     },
     "type": "magento2-module",
     "autoload": {
