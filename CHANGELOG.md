@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2021-10-15
+- Fixes issue #4 (https://github.com/SnowdogApps/magento2-alpaca-general/issues/4): Removed smile/module-elasticsuite-quick-order as it works only for Magento Commerce
+
 ## [1.2.0] - 2021-04-26
 ### Added
 - 67426: Added require for https://github.com/Smile-SA/magento2-module-elasticsuite-quick-order module
