@@ -12,4 +12,6 @@
                 type="Snowdog\AlpacaGeneral\Preference\Magento\CatalogSearch\Block\Result"/>
     <preference for="Smile\ElasticsuiteSwatches\Block\Navigation\Renderer\Swatches\RenderLayered"
                 type="Snowdog\AlpacaGeneral\Block\Smile\ElasticsuiteSwatches\Navigation\Renderer\Swatches\RenderLayered"/>
+    <preference for="Magento\Checkout\CustomerData\DefaultItem"
+                type="Snowdog\AlpacaGeneral\CustomerData\DefaultItem"/>
 </config>

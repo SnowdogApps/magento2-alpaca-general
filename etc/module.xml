@@ -11,6 +11,7 @@
     <module name="Snowdog_AlpacaGeneral">
         <sequence>
             <module name="Magento_CatalogSearch"/>
+            <module name="Magento_Checkout"/>
             <module name="Smile_ElasticsuiteSwatches"/>
         </sequence>
     </module>
