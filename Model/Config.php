@@ -17,7 +17,7 @@ class Config
     /**
      * System config XML paths.
      */
-    const XML_PATH_QTY_UPDATE_DISABLED = 'alpaca_general/minicart/qty_update_disabled';
+    private const XML_PATH_QTY_UPDATE_DISABLED = 'alpaca_general/minicart/qty_update_disabled';
 
     /**
      * @var ScopeConfigInterface
