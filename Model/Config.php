@@ -34,9 +34,6 @@ class Config
         $this->scopeConfig = $scopeConfig;
     }
 
-    /**
-     * @inheritDoc
-     */
     public function isQtyUpdateDisabled(): bool
     {
         if ($this->isQtyUpdateDisabled === null) {
