@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package   Snowdog\AlpacaGeneral
+ * @copyright 2021 Snowdog. All rights reserved.
+ * @see       https://snow.dog/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="snowdog" translate="label" sortOrder="300">
+            <label>Snowdog</label>
+        </tab>
+        <section id="alpaca_general" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Alpaca General</label>
+            <tab>snowdog</tab>
+            <resource>Snowdog_AlpacaGeneral::config</resource>
+            <group id="minicart" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Mini Cart</label>
+                <field id="qty_update_disabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Qty Update Disabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

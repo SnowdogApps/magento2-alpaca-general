@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2022-01-05
+### Added
+- DEV-84747: Mini Cart Qty update enable/disable system config option.
+
 ## [1.3.0] - 2021-10-15
 - Fixes issue #4 (https://github.com/SnowdogApps/magento2-alpaca-general/issues/4): Removed smile/module-elasticsuite-quick-order as it works only for Magento Commerce
 
