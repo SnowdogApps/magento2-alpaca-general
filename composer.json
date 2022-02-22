@@ -2,8 +2,7 @@
     "name": "snowdog/module-alpaca-general",
     "description": "A Magento 2 module for Alpaca project general fixes",
     "require": {
-        "magento/framework": ">=102.0.0",
-        "smile/elasticsuite": ">=2.8.5 <=2.10.3"
+        "magento/framework": ">=102.0.0"
     },
     "type": "magento2-module",
     "autoload": {
