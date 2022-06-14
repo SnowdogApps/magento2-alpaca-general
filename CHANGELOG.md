@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.0] - 2022-06-14
+- DEV-88528: replace ObjectManager in phtml
+
 ## [1.5.0] - 2022-02-22
 ### Removed
 - DEV-84747: Removed Smile Elastic Suite dependencies and fixes (they're already fixed in original module: https://github.com/Smile-SA/elasticsuite/issues/1931)
